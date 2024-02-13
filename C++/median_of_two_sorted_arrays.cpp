@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 
+/**
+ * Runtime: beats 75.91% of users with C++
+ * Memory: beats 11.74% of users with C++
+*/
+
 class Solution {
 public:
     double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) {
