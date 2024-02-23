@@ -1,3 +1,6 @@
+from ast import List
+
+
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
         if n is 1:
@@ -13,5 +16,5 @@ class Solution:
         for _ in range(1, n + 1):
             if freq_in[_] == n - 1 and freq_out[_] == 0:
                 return _
-        
+
         return -1
