@@ -1,6 +1,5 @@
 from ast import List
 
-
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
         if n is 1:
