@@ -1,16 +1,16 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+struct ListNode {
+      int val;
+      struct ListNode *next;
+  };
+
 /**
  * Runtime: beats 45.69% of users with C
  * Memory: beats 26.22% of users with C
  * Daily problem (Streak 22)
 */
-
-struct ListNode {
-      int val;
-      struct ListNode *next;
-  };
 
 bool hasCycle(struct ListNode *head) {
     if(!head || !head->next) return false;
