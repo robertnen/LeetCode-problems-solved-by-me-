@@ -4,7 +4,6 @@
  * Memory: beats 39.77% of users with C++
  * Daily problem (Streak 6)
 */
-
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
