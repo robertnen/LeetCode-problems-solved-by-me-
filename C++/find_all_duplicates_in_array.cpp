@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
 
 /**
- * Runtime: beats 37.30% of users with C++
- * Memory: beats 5.74% of users with C++
- * Daily problem (Streak 11)
+ * Runtime: beats 98.04% of users with C++
+ * Memory: beats 66.87% of users with C++
+ * Daily problem (Streak 41)
 */
 
 class Solution {
