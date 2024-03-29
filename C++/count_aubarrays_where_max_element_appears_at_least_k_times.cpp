@@ -1,5 +1,11 @@
 #include <bits/stdc++.h>
 
+/**
+ * Runtime: beats 87.31% of users with C++
+ * Memory: beats 84.38% of users with C++
+ * Daily problem (Streak 45)
+*/
+
 class Solution {
 public:
     long long countSubarrays(std::vector<int>& nums, int k) {
