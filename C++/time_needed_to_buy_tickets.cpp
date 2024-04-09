@@ -3,7 +3,7 @@
 /**
  * Runtime: beats 100% of users with C++
  * Memory: beats 46.11% of users with C++
- * Daily problem (Streak 55)
+ * Daily problem (Streak 56)
 */
 
 class Solution {
