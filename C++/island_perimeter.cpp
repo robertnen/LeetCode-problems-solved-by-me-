@@ -10,7 +10,7 @@ class Solution {
 public:
     int islandPerimeter(std::vector<std::vector<int>>& grid) {
         short total = 0;
-        char m = grid.size(), n = grid[0].size(); 
+        char m = grid.size(), n = grid[0].size();
 
         for(char i = 0; i < m; i++)
             for(char j = 0; j < n; j++) {
