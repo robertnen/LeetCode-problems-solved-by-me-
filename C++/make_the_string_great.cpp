@@ -22,7 +22,6 @@ public:
                 i = 1;
                 continue;
             }
-
             ch = s[i++];
         }
 
