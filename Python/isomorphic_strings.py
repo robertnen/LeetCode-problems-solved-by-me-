@@ -11,6 +11,7 @@ class Solution:
             if cS in s_t:
                 if s_t[cS] != cT:
                     return False
+
             else:
                 if cT in t_s:
                     return False
